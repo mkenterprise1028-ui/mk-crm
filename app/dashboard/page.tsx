@@ -1,6 +1,6 @@
 app/dashboard/page.tsx 
 import Sidebar from '../../components/Sidebar'
-import { calculateTotalFee } from '../../lib/feeLogic'
+import { calculateTotalFee } from '../../feeLogic'
 
 export default function Dashboard(){
   const cards = [
