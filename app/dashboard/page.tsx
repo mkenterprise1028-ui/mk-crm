@@ -1,7 +1,5 @@
 import Sidebar from '../../components/Sidebar'
 import { calculateTotalFee } from '../../feeLogic'
-import { calculateTotalFee } from '../../feeLogic'
-
 export default function Dashboard(){
   const cards = [
     {title:'Total Customers', value:'1,250'},
